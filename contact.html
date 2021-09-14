@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Web Click</title>
+</head>
+<body>
+    <header class="topbar">
+            <a href="./index.html" class="topbar-logo"><img src="./img/weblogo.svg" alt=""></a>
+        <nav class="topbar-nav">
+            <a href="./index.html">Acceuil</a>
+            <a href="./historique.html" >Historique</a>
+            <a href="./activites.html">Evenement</a>
+            <a href="./contact.html" class="active">Contact</a>
+        </nav>
+
+    </header>
+        <main>
+            <h1 id="contact">Contacter <img src="img/webclick.png" alt="webclick"> </h1>
+            <h2>Qui êtes-vous?</h2>
+            <form action="inscrire.php" class="formulaire">
+                <tr>
+                    <th id="prenom"> <b>Prenom</th>
+                    <input class="text" type="text">
+                
+                </tr>
+                <tr>
+                    <th> <b>Nom </th>
+                    <input class="text" type="text">
+            </tr>
+            <tr>
+                <th>Address email</th>
+                <td><input class="text" type="text"></td>
+            </tr>
+            <tr>
+                <th>Que voudriez-vous faire?</th>
+                <td>
+                    <select class="text" name="" id="">
+                        <option value="1">Avoir un compte Web Click</option>
+                        <option value="2">Creer une page webclick</option>
+                        <option value="3">Me connecter normalement</option>
+                    </select>
+                </td>
+            </tr>
+            <h2>Quel est votre message pour Web Click?</h2>
+            <tr>
+            <textarea name="" id="" cols="130" rows="10">Entrez un message ici...</textarea>
+            <td><input type="submit"></td>
+        </tr>
+            </form>
+        </main>
+        <footer>
+        <div class="footer">
+            <p class="dev">Apprenants de l'institut Supperieur <br> d'enseignement Professionnel de Thiès</p>
+            <p class="adress">Sénégal/Thiès <br> 77 493 26 65 / 77 013 28 49 <br>Abdoulaye Sow <br>Mouhamadou Mountaga Gueye</p>
+            <p class="copy">copyright &copy;</p>
+
+        </div>
+        </footer>
+</body>
+</html>
